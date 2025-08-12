@@ -4,4 +4,22 @@ body{
 
 .header-logo{
     background-color: aqua;
+    height: 130px;
+}
+
+.header-logo img{
+    position: relative;
+    margin-left: 160px;
+    margin-top: 45px;
+}  
+
+.calculator{
+    background-color: white;
+    border-radius: 7px;
+    height: 450px;
+}
+
+.calculator-content{
+    margin-left: 20px;
+    padding-top: 20px;
 }
