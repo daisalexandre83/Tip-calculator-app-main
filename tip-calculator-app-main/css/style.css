@@ -5,6 +5,7 @@ body{
 .header-logo{
     background-color: aqua;
     height: 130px;
+    border-radius: 7px;
 }
 
 .header-logo img{
@@ -15,7 +16,6 @@ body{
 
 .calculator{
     background-color: white;
-    border-radius: 7px;
     height: 450px;
 }
 
