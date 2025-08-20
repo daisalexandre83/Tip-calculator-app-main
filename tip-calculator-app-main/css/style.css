@@ -3,14 +3,13 @@ body{
 }
 
 .header-logo{
-    background-color: aqua;
+    background-color: #c5e4e7;
     height: 130px;
-    border-radius: 7px;
 }
 
 .header-logo img{
     position: relative;
-    margin-left: 160px;
+    margin-left: 170px;
     margin-top: 45px;
 }  
 
@@ -20,6 +19,22 @@ body{
 }
 
 .calculator-content{
-    margin-left: 20px;
+    margin-left: 15px;
     padding-top: 20px;
+    color:#afb6b3;
+}
+
+.calculator-value{
+    background-color: #f2f8fb;
+    position: absolute;
+    width: 380px;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.calculator-value img{
+    position: absolute;
+    left: 15px;
+    top: 20px;
 }
