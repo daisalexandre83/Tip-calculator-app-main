@@ -55,7 +55,12 @@ body{
 }
 
 .calculator-percentage-custom{
-    background-color: #fffffd;
+    background-color: #f4f8fb !important;
     border: none;
     height: 40px;
+}
+
+.calculator-percentage-custom p{
+   color: #708381;
+   font-size: 20px;
 }
