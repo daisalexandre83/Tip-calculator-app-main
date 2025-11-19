@@ -9,7 +9,7 @@ body{
 
 .header-logo img{
     position: relative;
-    margin-left: 170px;
+    margin-left: 255px;
     margin-top: 45px;
 }  
 
@@ -64,11 +64,19 @@ input{
     background-color: #f4f8fb !important;
     border: none;
     height: 40px;
+    position: absolute;
+    top: 428px;
+    left: 337px;
+    width: 300px;
+    border-radius: 5px;
 }
 
 .calculator-percentage-custom p{
    color: #708381;
-   font-size: 20px;
+   font-size: larger;
+   position: absolute;
+   left: 105px;
+   bottom: -17px;
 }
 
 .number-people{
@@ -82,13 +90,13 @@ input{
 
 .number-people img{
   position: absolute;
-  right: 370px;
+ left: 20px;
   margin-top: 7px;
 }
 
 .result{
     position: absolute;
-    width: 405px;
+    /* width: 405px; */
     height: 325px;
     background-color: #00474a ;
     margin-top: 160px;
@@ -102,6 +110,16 @@ input{
 .result input{
     border: none;
     background: none;
+}
+
+.result1{
+    position: relative;
+    left: 20px;
+}
+
+.result2{
+    position: relative;
+    left: 20px;
 }
 
 /* .result1 input{
