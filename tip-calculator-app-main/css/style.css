@@ -122,16 +122,23 @@ input{
     left: 20px;
 }
 
-/* .result1 input{
+.result1 input{
     border: none;
-    background: none;
+    background: greenyellow;
+    width: 40px;
+    
 }
 
 .result2 input{
-    border: none;
-    background: none;
-} */
+    border:none;
+    background: greenyellow;
+    width: 40px;
+    position: absolute;
+    left: 150px;
+}
 
 .result h2{
     color: #ffffff;
+    background: greenyellow;
+    width: 40px;
 }
