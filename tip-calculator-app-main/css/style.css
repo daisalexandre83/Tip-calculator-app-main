@@ -65,7 +65,7 @@ input{
     border: none;
     height: 40px;
     position: absolute;
-    top: 428px;
+    top: 429px;
     left: 337px;
     width: 300px;
     border-radius: 5px;
@@ -112,33 +112,17 @@ input{
     background: none;
 }
 
-.result1{
+.result-content{
     position: relative;
     left: 20px;
+    font: 16px;
+    color: #fff;
 }
 
-.result2{
+.result-content input{
+    border: #afb6b3;
     position: relative;
-    left: 20px;
+    width: 150px;
 }
 
-.result1 input{
-    border: none;
-    background: greenyellow;
-    width: 40px;
-    
-}
 
-.result2 input{
-    border:none;
-    background: greenyellow;
-    width: 40px;
-    position: absolute;
-    left: 150px;
-}
-
-.result h2{
-    color: #ffffff;
-    background: greenyellow;
-    width: 40px;
-}
