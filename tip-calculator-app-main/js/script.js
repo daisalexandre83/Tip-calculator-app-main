@@ -1,0 +1,1 @@
+let value = document.write("Digite um valor");
