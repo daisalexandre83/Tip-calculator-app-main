@@ -11,7 +11,7 @@ body{
     position: relative;
     margin-left: 255px;
     margin-top: 45px;
-}  
+}
 
 .calculator{
     background-color: white;
@@ -95,7 +95,7 @@ input{
 }
 
 .result{
-    position: absolute;
+    /* position: absolute; */
     /* width: 405px; */
     height: 325px;
     background-color: #00474a ;
@@ -107,22 +107,30 @@ input{
     color: #ffffff;
 }
 
-.result input{
-    border: none;
-    background: none;
+.result-value input {
+    background: yellowgreen;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 250px;
 }
+
+
 
 .result-content{
     position: relative;
     left: 20px;
     font: 16px;
     color: #fff;
+    top: 40px;
 }
 
 .result-content input{
     border: #afb6b3;
-    position: relative;
+    position: absolute;
     width: 150px;
+    background-color: red;
+    left: 400px;
+    top: 15px;
 }
 
 
