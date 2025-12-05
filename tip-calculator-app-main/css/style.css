@@ -109,9 +109,9 @@ input{
 
 .result-value input {
     background: yellowgreen;
-    margin-top: 5px;
     border-radius: 10px;
-    width: 250px;
+    width: 500px;
+    margin: 65px 55px;
 }
 
 
@@ -120,8 +120,9 @@ input{
     position: relative;
     left: 20px;
     font: 16px;
+    top: 80px;
     color: #fff;
-    top: 40px;
+    top: 20px;
 }
 
 .result-content input{
@@ -130,7 +131,23 @@ input{
     width: 150px;
     background-color: red;
     left: 400px;
-    top: 15px;
+    top: 25px;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #00474a ;
+    color: #ffffff;
+    width: 622px;
+    top: 592px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.placeholder-text::placeholder{
+   color: blue;
 }
 
 
