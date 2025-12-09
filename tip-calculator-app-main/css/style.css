@@ -148,6 +148,9 @@ input{
 
 .placeholder-text::placeholder{
    color: blue;
+   position: absolute;
+    color: #ffffff;
+    left: 225px;
 }
 
 
