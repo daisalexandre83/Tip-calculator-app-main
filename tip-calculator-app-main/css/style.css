@@ -23,14 +23,12 @@ body{
     color:#afb6b3;
 }
 
-/* .calculator-insert-value input{
-    height: 25px;
-    width: 375px;
-} */
+
 
 input{
-    height: 25px;
+    height: 35px;
     width: 615px;
+    border-radius: 8px;
 }
 
 
@@ -111,7 +109,8 @@ input{
     background: yellowgreen;
     border-radius: 10px;
     width: 500px;
-    margin: 65px 55px;
+    margin: 50px 55px;
+    border: none;
 }
 
 
@@ -141,7 +140,7 @@ input{
     background-color: #00474a ;
     color: #ffffff;
     width: 622px;
-    top: 592px;
+    top: 625px;
     border-radius: 10px;
     height: 300px;
 }
