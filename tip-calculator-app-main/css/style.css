@@ -24,7 +24,6 @@ body{
 }
 
 
-
 input{
     height: 35px;
     width: 615px;
@@ -106,18 +105,16 @@ input{
 }
 
 .result-value input {
-    background: yellowgreen;
+    background: #c5e4e7;
     border-radius: 10px;
     width: 500px;
     margin: 50px 55px;
     border: none;
 }
 
-
-
 .result-content{
     position: relative;
-    left: 20px;
+    left: 55px;
     font: 16px;
     top: 80px;
     color: #fff;
@@ -128,8 +125,8 @@ input{
     border: #afb6b3;
     position: absolute;
     width: 150px;
-    background-color: red;
-    left: 400px;
+    background-color: #c5e4e7;
+    left: 348px;
     top: 25px;
 }
 
@@ -150,6 +147,17 @@ input{
    position: absolute;
     color: #ffffff;
     left: 225px;
+}
+
+h1{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+h2{
+    font-size: 14px;
+    font-family: monospace;
+    color: gray;
 }
 
 
