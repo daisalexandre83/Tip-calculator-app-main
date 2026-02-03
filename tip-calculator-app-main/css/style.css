@@ -112,15 +112,6 @@ input{
     border: none;
 }
 
-.result-content{
-    position: relative;
-    left: 55px;
-    font: 16px;
-    top: 80px;
-    color: #fff;
-    top: 20px;
-}
-
 .result-content input{
     border: #afb6b3;
     position: absolute;
