@@ -14,6 +14,8 @@ function choosePercent5(){
 
     let valuePercentage5Sum = value +(5/100);
     let valueBiggerPercentage5 =  valuePercentage5Sum / numberPeople;
+
+    console.log('oi');
 }
 
 choosePercent5()
@@ -61,10 +63,6 @@ choosePercent50()
 
 
      
-
-// function percentage5(params) {
-//     let valuePercentage5 = value -(5/100);
-//     let lessValue5 = valuePercentage5 / numberPeople;
-// }
-
-// percentage5()
+function reset() {
+   
+}
