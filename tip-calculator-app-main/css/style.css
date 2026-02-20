@@ -121,6 +121,11 @@ input{
     top: 25px;
 }
 
+.result-content h1{
+    position: relative;
+    left: 20px;
+}
+
 .container{
     position: absolute;
     display: flex;
