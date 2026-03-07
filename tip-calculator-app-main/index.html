@@ -22,16 +22,17 @@
     <div class="calculator-insert-value">
      <p>Bill</p>
      <input id="input-value" type="number">
+     <!--input type="number" id="bill" placeholder="Ex:200.00"-->
      <img src="images/icon-dollar.svg">
     </div>
     <div class="choose-percentage">
         <p>Select Tip %</p>
        <div class="grid-container">
-         <button class="calculator-percentage" id="value5" onclick="choosePercent5()"> 5% </button>
-         <button class="calculator-percentage" id="value10" onclick="choosePercent10()"> 10% </button>
-         <button class="calculator-percentage" id="value15" onclick="choosePercent15()"> 15% </button>
-         <button class="calculator-percentage" id="value25" onclick="choosePercent25()"> 25% </button>
-         <button class="calculator-percentage" id="value50" onclick="choosePercent50()"> 50% </button>
+         <button class="calculator-percentage" id="value5" onclick="calculate(5)"> 5% </button>
+         <button class="calculator-percentage" id="value10" onclick="calculate(10)"> 10% </button>
+         <button class="calculator-percentage" id="value15" onclick="calculate(15)"> 15% </button>
+         <button class="calculator-percentage" id="value25" onclick="calculate(25)"> 25% </button>
+         <button class="calculator-percentage" id="value50" onclick="calculate(50)"> 50% </button>
          <button class="calculator-percentage-custom">
            <p>Custom</p> 
          </button>
@@ -40,20 +41,29 @@
     <div class="number-people">
       <p> Number of People</p>
       <input id ="value-number-people"type="number">
+      <!--input type="number" id="people" value="1" min="1"-->
       <img src="images/icon-person.svg">
     </div>
-      <div class="container">
-        <div class="result-content">
+      <div class="results">
+        <div class="result-item">
           <h1>Tip Amount</h1>
           <h2>/ person</h2>
-          <input readonly>
+          <input  type="number" id="tipPerPerson" readonly>
         </div>
-        <div class="result-content">
+        <div class="result-item">
           <h1>Total</h1>
           <h2>/ person</h2>
-          <input readonly>
+          <input type="number" id="totalPerson" readonly>
         </div>
-      <div class="result-value">
+
+      </div> 
+      <!--div class="container">
+        <div class="result-content">
+        </div>
+        <div class="result-content">
+        
+        </div-->
+      <div class="result-reset">
         <button onclick="reset()">RESET</button>
       </div>
     </div>
