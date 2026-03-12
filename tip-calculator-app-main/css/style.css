@@ -114,13 +114,21 @@ input{
     height: 30px;
 }
 
+.result-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 .result-content input{
     border: #afb6b3;
-    position: absolute;
-    width: 150px;
+    /* position: absolute; */
+    position: static;
+    width: 120px;
     background-color: #c5e4e7;
-    left: 348px;
-    top: 25px;
+    /* left: 348px;
+    top: 25px; */
 }
 
 .result-content h1{
@@ -134,15 +142,17 @@ input{
 }
 
 .container{
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
+    padding: 20px;
     background-color: #00474a ;
     color: #ffffff;
-    width: 622px;
-    top: 625px;
+    /* width: 622px; */
+    /* top: 625px; */
     border-radius: 10px;
-    height: 300px;
+    height: 200px;
+    margin-top: 125px;
 }
 
 .placeholder-text::placeholder{
