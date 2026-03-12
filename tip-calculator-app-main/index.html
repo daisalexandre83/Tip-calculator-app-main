@@ -21,18 +21,18 @@
   <main class="calculator">
     <div class="calculator-insert-value">
      <p>Bill</p>
-     <input id="input-value" type="number">
-     <!--input type="number" id="bill" placeholder="Ex:200.00"-->
+     <!--input id="input-value" type="number"-->
+     <input type="number" id="bill">
      <img src="images/icon-dollar.svg">
     </div>
     <div class="choose-percentage">
         <p>Select Tip %</p>
        <div class="grid-container">
-         <button class="calculator-percentage" id="value5" onclick="calculate(5)"> 5% </button>
-         <button class="calculator-percentage" id="value10" onclick="calculate(10)"> 10% </button>
-         <button class="calculator-percentage" id="value15" onclick="calculate(15)"> 15% </button>
-         <button class="calculator-percentage" id="value25" onclick="calculate(25)"> 25% </button>
-         <button class="calculator-percentage" id="value50" onclick="calculate(50)"> 50% </button>
+         <button class="calculator-percentage"  onclick="calculate(5)"> 5% </button>
+         <button class="calculator-percentage"  onclick="calculate(10)"> 10% </button>
+         <button class="calculator-percentage"  onclick="calculate(15)"> 15% </button>
+         <button class="calculator-percentage"  onclick="calculate(25)"> 25% </button>
+         <button class="calculator-percentage"  onclick="calculate(50)"> 50% </button>
          <button class="calculator-percentage-custom">
            <p>Custom</p> 
          </button>
@@ -40,33 +40,25 @@
     </div>
     <div class="number-people">
       <p> Number of People</p>
-      <input id ="value-number-people"type="number">
-      <!--input type="number" id="people" value="1" min="1"-->
+      <input id="value-number-people" type="number">
       <img src="images/icon-person.svg">
     </div>
-      <div class="results">
-        <div class="result-item">
+      <div class="container">
+        <div class="result-content">
           <h1>Tip Amount</h1>
           <h2>/ person</h2>
           <input  type="number" id="tipPerPerson" readonly>
         </div>
-        <div class="result-item">
+        <div class="result-content">
           <h1>Total</h1>
           <h2>/ person</h2>
           <input type="number" id="totalPerson" readonly>
         </div>
-
-      </div> 
-      <!--div class="container">
-        <div class="result-content">
-        </div>
-        <div class="result-content">
-        
-        </div-->
       <div class="result-reset">
         <button onclick="reset()">RESET</button>
       </div>
     </div>
   </main>
-</body>
+  <script src="js/script.js"></script>
+ </body>
 </html>
