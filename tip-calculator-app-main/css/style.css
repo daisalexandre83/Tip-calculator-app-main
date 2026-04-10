@@ -30,8 +30,6 @@ input{
     border-radius: 8px;
 }
 
-
-
 .calculator-insert-value img{
     position: absolute;
     left: 35px;
@@ -92,8 +90,6 @@ input{
 }
 
 .result{
-    /* position: absolute; */
-    /* width: 405px; */
     height: 325px;
     background-color: #00474a ;
     margin-top: 160px;
@@ -123,12 +119,9 @@ input{
 
 .result-content input{
     border: #afb6b3;
-    /* position: absolute; */
     position: static;
     width: 120px;
     background-color: #c5e4e7;
-    /* left: 348px;
-    top: 25px; */
 }
 
 .result-content h1{
@@ -148,8 +141,6 @@ input{
     padding: 20px;
     background-color: #00474a ;
     color: #ffffff;
-    /* width: 622px; */
-    /* top: 625px; */
     border-radius: 10px;
     height: 200px;
     margin-top: 125px;
