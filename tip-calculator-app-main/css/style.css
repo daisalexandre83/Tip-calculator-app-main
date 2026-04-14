@@ -64,7 +64,7 @@ input{
     border: none;
     height: 40px;
     position: absolute;
-    top: 440px;
+    top: 439px;
     left: 337px;
     width: 300px;
     border-radius: 5px;
@@ -111,7 +111,8 @@ input{
     position: absolute;
     border: none;
     left: 20px;
-    height: 30px;
+    height: 40px;
+    top: 170px;
 }
 
 .result-content{
@@ -134,8 +135,9 @@ input{
 }
 
 .result-content h2{
-    position: relative;
-    left: 20px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
 }
 
 .container{
