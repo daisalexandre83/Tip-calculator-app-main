@@ -8,7 +8,7 @@ body{
 .header-logo{
     background-color: #c5e4e7;
     height: 130px;
-    width: 100%;
+    width: 625px;
 }
 
 .header-logo img{
@@ -168,6 +168,11 @@ h2{
     font-size: 14px;
     font-family: monospace;
     color: gray;
+}
+
+.result-content2{
+    color:gary;
+    margin-top: 80px;
 }
 
 
