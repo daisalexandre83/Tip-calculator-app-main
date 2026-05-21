@@ -176,10 +176,14 @@ h2{
 }
 
 /*Estilo para telas maiores*/
-@media only screen and(min-width:768px){
+@media only screen and (min-width:768px){
     .header-logo{
         height: 900px;
-        width: 1200px;
+        width: 100%;
+    }
+
+    .header-logo img{
+        margin: 150px 600px;
     }
 }
 
