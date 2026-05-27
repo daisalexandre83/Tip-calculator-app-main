@@ -179,11 +179,44 @@ h2{
 @media only screen and (min-width:768px){
     .header-logo{
         height: 900px;
-        width: 100%;
+        width: auto;
+        position: absolute;
+        align-items: center;
     }
 
     .header-logo img{
-        margin: 150px 600px;
+        margin: 200px 600px;
+    }
+
+    .calculator{
+        position: relative;
+        top: 300px;
+        width: 900px;
+        border-radius: 10px;
+    }
+
+    .calculator-insert-value p{
+        margin-left: 20px;
+    }
+
+    .calculator-insert-value input{
+        border: none;
+        background-color: red;
+        width: 400px;
+        margin-left: 20px;
+    }
+
+    .calculator-insert-value img{
+        top: 80px;
+    }
+
+    .choose percentage p{
+        margin-left: 20px;
+    }
+
+    .grid-container button{
+        margin-left: 20px;
+        width: 150px;
     }
 }
 
