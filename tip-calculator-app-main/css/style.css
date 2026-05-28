@@ -210,13 +210,21 @@ h2{
         top: 80px;
     }
 
-    .choose percentage p{
+    .choose-percentage p{
+        margin-left: 20px;
+    }
+
+    .grid-container {
+        width: 415px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
         margin-left: 20px;
     }
 
     .grid-container button{
-        margin-left: 20px;
-        width: 150px;
+        /* width: 150px; */
+        width: calc(33.333% - 10px);
     }
 }
 
