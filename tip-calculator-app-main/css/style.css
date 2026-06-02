@@ -177,18 +177,18 @@ h2{
 
 /*Estilo para telas maiores*/
 @media only screen and (min-width:768px){
-    .header-logo{
+    /* .header-logo{
         height: 900px;
         width: auto;
         position: absolute;
         align-items: center;
-    }
-
+    } */
+/* 
     .header-logo img{
         margin: 200px 600px;
-    }
+    } */
 
-    .calculator{
+    /* .calculator{
         position: relative;
         top: 300px;
         width: 900px;
@@ -197,9 +197,9 @@ h2{
 
     .calculator-insert-value p{
         margin-left: 20px;
-    }
+    } */
 
-    .calculator-insert-value input{
+    /* .input{
         border: none;
         background-color: red;
         width: 400px;
@@ -208,9 +208,9 @@ h2{
 
     .calculator-insert-value img{
         top: 80px;
-    }
+    } */
 
-    .choose-percentage p{
+    /* .choose-percentage p{
         margin-left: 20px;
     }
 
@@ -220,12 +220,12 @@ h2{
         flex-wrap: wrap;
         gap: 10px;
         margin-left: 20px;
-    }
+    } */
 
-    .grid-container button{
-        /* width: 150px; */
+    /* .grid-container button{
+
         width: calc(33.333% - 10px);
-    }
+    } */
 }
 
 
