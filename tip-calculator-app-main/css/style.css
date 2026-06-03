@@ -7,8 +7,10 @@ body{
 
 .header-logo{
     background-color: #c5e4e7;
-    height: 130px;
+    height: 150px;
     width: 625px;
+    /* border-bottom-left-radius: 8px ;
+    border-bottom-right-radius: 8px; */
 }
 
 .header-logo img{
@@ -20,6 +22,12 @@ body{
 .calculator{
     background-color: white;
     height: 450px;
+    width: 625px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 1;
 }
 
 .calculator-insert-value{
@@ -27,17 +35,22 @@ body{
     color:#afb6b3;
 }
 
+.calculator-insert-value p {
+    margin-left: 20px;
+}
+
 
 input{
     height: 35px;
-    width: 615px;
+    width: 570px;
     border-radius: 8px;
+    margin-left: 20px;
 }
 
 .calculator-insert-value img{
     position: absolute;
     left: 35px;
-    top: 215px;
+    top: 82px;
 }
 
 .calculator-value-number{
@@ -47,7 +60,9 @@ input{
 .grid-container{
    display: grid;
    grid-template-columns: auto auto ;
-   gap: 30px;
+   gap: 20px;
+   width: 577px;
+   margin-left: 20px;
 }
 
 .grid-container button{
@@ -73,9 +88,13 @@ input{
 .calculator-percentage-custom p{
    color: #708381;
    font-size: larger;
-   position: absolute;
+   /* position: absolute; */
    left: 105px;
    bottom: -17px;
+}
+
+.choose-percentage p{
+    margin-left: 20px;
 }
 
 .number-people{
