@@ -75,12 +75,13 @@ input{
 }
 
 .calculator-percentage-custom{
-    background-color: #f4f8fb !important;
+    /* background-color: #f4f8fb !important; */
+    background-color: red !important;
     border: none;
     height: 40px;
     position: absolute;
-    top: 439px;
-    left: 337px;
+    top: 281px;
+    left: 319px;
     width: 300px;
     border-radius: 5px;
 }
@@ -104,12 +105,13 @@ input{
 
 .number-people p{
     color:#afb6b3;
+    margin-left: 20px;
 }
 
 .number-people img{
   position: absolute;
- left: 20px;
-  margin-top: 7px;
+  left: 40px;
+  margin-top: 10px;
 }
 
 .result{
@@ -126,7 +128,7 @@ input{
 .result-reset button {
     background: #c5e4e7;
     border-radius: 5px;
-    width: 575px;
+    width: 538px;
     position: absolute;
     border: none;
     left: 20px;
@@ -150,12 +152,12 @@ input{
 
 .result-content h1{
     position: relative;
-    left: 20px;
+    left: 10px;
 }
 
 .result-content h2{
     position: absolute;
-    left: 40px;
+    left: 30px;
     top: 40px;
 }
 
@@ -169,6 +171,8 @@ input{
     border-radius: 10px;
     height: 200px;
     margin-top: 125px;
+    width: 538px;
+    left: 20px;
 }
 
 .placeholder-text::placeholder{
