@@ -59,7 +59,7 @@ input{
 
 .grid-container{
    display: grid;
-   grid-template-columns: auto auto ;
+   grid-template-columns: repeat(2,1fr) ;
    gap: 20px;
    width: 577px;
    margin-left: 20px;
@@ -75,21 +75,21 @@ input{
 }
 
 .calculator-percentage-custom{
-    /* background-color: #f4f8fb !important; */
-    background-color: red !important;
+    background-color: #f4f8fb !important;
     border: none;
     height: 40px;
     position: absolute;
     top: 281px;
     left: 319px;
-    width: 300px;
+    width: 280px;
     border-radius: 5px;
+    margin-top: 2px;
 }
 
 .calculator-percentage-custom p{
    color: #708381;
    font-size: larger;
-   /* position: absolute; */
+   position: absolute;
    left: 105px;
    bottom: -17px;
 }
