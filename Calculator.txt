@@ -1,0 +1,7 @@
+Projeto Tip Calculator
+
+https://www.w3schools.com/css/css_grid_columns_rows.asp
+
+https://www.w3schools.com/cssref/tryit.php?filename=trycss_grid-row
+
+https://cursos.alura.com.br/forum/topico-nao-consigo-fazer-meus-grids-ficarem-do-mesmo-tamanho-187970
