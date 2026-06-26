@@ -173,49 +173,7 @@ input{
         position: absolute;
         align-items: center;
     } */
-/*
-    .header-logo img{
-        margin: 200px 600px;
-    } */
 
-    /* .calculator{
-        position: relative;
-        top: 300px;
-        width: 900px;
-        border-radius: 10px;
-    }
-
-    .calculator-insert-value p{
-        margin-left: 20px;
-    } */
-
-    /* .input{
-        border: none;
-        background-color: red;
-        width: 400px;
-        margin-left: 20px;
-    }
-
-    .calculator-insert-value img{
-        top: 80px;
-    } */
-
-    /* .choose-percentage p{
-        margin-left: 20px;
-    }
-
-    .grid-container {
-        width: 415px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-left: 20px;
-    } */
-
-    /* .grid-container button{
-
-        width: calc(33.333% - 10px);
-    } */
 }
 
 
