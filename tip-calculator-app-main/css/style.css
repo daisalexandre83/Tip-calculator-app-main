@@ -97,13 +97,13 @@ input{
     background-color: #f3f8fb!important;
     border: none;
     height: 48px;
-    border-radius: 5px;
+    border-radius: 5px !important;
     font-size: 20px;
     font-weight: bold;
 }
 
 .calculator-percentage-custom p{
- 
+
  color: #5e7a7d !important;
 }
 
@@ -159,17 +159,11 @@ input{
     flex-direction: column;
     padding:40px 24px  24px 24px;
     background-color: #00474a ;
-    /* color: #ffffff; */
     box-sizing: border-box;
     gap: 24px;
     border-radius: 15px;
+     font-weight: bold;
 }
-
-.choose-percentage p{
-    font-weight: bold;
-}
-
-
 
 /*Estilo para telas maiores*/
 @media only screen and (min-width:768px){
