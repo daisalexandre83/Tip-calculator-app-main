@@ -21,8 +21,8 @@ function calculate(percentage) {
 
     const totalPerPerson = (bill + totalTip) / people;
 
-    tipOutput.value = tipPerPerson.toFixed(2);
-    totalOutput.value = totalPerPerson.toFixed(2);
+    tipOutput.value = "$" + tipPerPerson.toFixed(2);
+    totalOutput.value = "$" + totalPerPerson.toFixed(2);
 }
 
 function reset(){
