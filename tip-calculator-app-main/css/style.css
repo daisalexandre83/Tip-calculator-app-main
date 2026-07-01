@@ -112,34 +112,47 @@ input{
 } */
 
 .result-content{
-    align-items: center;
-}
-
-.result-content div{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .result-content h1{
     color: #ffffff;
     font-size: 16px;
     margin: 0;
+    line-height: 1;
 }
 
 .result-content h2{
     color: #7f9d9f;
     font-size: 13px;
     margin: 0;
+    line-height: 1.5;
 }
 
-.result-content input{
+.result-content-value1 input{
     background: transparent;
     color: #26c2ae;
     font-size: 32px;
-    text-align: right;
     width: 60%;
-    padding: 0;
-    height: auto;
+    position: absolute;
+    top: 525px;
+    left: 100px;
+    
+    /* padding: 0;
+    margin: 0;
+    height: 100%;
+    border: none;
+    outline: none; */
+    font-weight: bold;
+    /* display: flex;
+    align-items: center; */
+}
+
+.result-content-value2 input{
+    position: absolute;
+    top: 590px;
 }
 
 .result-reset button {
