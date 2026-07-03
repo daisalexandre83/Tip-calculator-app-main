@@ -1,3 +1,8 @@
+const peopleInput = document.getElementById("value-number-people");
+const errorMessage = document.getElementById("error-message");
+const tipResult = document.getElementById("tipPerPerson");
+const totalResult = document.getElementById("totalPerson");
+
 function calculate(percentage) {
     const bill = parseFloat(document.getElementById("bill").value);
     const people = parseInt(document.getElementById("value-number-people").value);
@@ -11,7 +16,7 @@ function calculate(percentage) {
     // }
 
     if (isNaN(bill) || isNaN(people) || people <= 0) {
-        alert("Por favor,insira valores válidos.");
+        alert("Can't to be zero.");
         return;
     }
 
