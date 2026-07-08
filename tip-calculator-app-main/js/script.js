@@ -3,12 +3,24 @@ const errorMessage = document.getElementById("error-message");
 const tipResult = document.getElementById("tipPerPerson");
 const totalResult = document.getElementById("totalPerson");
 
+peopleInput.addEventListener("input", () =>{
+const peopleValue = parseInt(peopleInput.value);
+
+    if (peopleValue === 0) {
+        errorMessage.style.display = "block";
+        peopleInput.classList.add("input-error");
+    } else {
+        errorMessage.style.display = "none";
+        peopleInput.classList.remove("input-error");
+    }
+});
+
+
 function calculate(percentage) {
     const bill = parseFloat(document.getElementById("bill").value);
-    const people = parseInt(document.getElementById("value-number-people").value);
+    const people = parseInt(peopleInput.value);
 
-    const tipOutput = document.getElementById("tipPerPerson");
-    const totalOutput = document.getElementById("totalPerson");
+    
 
     // if(!bill || !people || people <= 0){
     //     alert("Por favor,preencha o valor da conta e a quantidade de pessoas")
@@ -16,24 +28,40 @@ function calculate(percentage) {
     // }
 
     if (isNaN(bill) || isNaN(people) || people <= 0) {
-        alert("Can't to be zero.");
-        return;
+       if (people === 0) {
+        errorMessage.style.display = "block";
+        peopleInput.classList.add("input-error");
+       }
+       return;
     }
 
     const totalTip = bill *(percentage /100);
-
     const tipPerPerson = totalTip / people;
-
     const totalPerPerson = (bill + totalTip) / people;
 
-    tipOutput.value = "$" + tipPerPerson.toFixed(2);
-    totalOutput.value = "$" + totalPerPerson.toFixed(2);
+    tipResult.value = "$" + tipPerPerson.toFixed(2);
+    totalResult.value = "$" + totalPerPerson.toFixed(2);
 }
 
 function reset(){
     document.getElementById("bill").value="";
-    document.getElementById("value-number-people").value="";
-    document.getElementById("tipPerPerson").value="";
-    document.getElementById("totalPerson").value="";
+    peopleInput.value = "";
+    tipResult.value = "$0.00";
+    totalResult.value = "$0.00";
+
+    customPercentageInput.value="";
+
+    errorMessage.style.display="none";
+    peopleInput.classList.remove("input-error");
 }
+
+const customPercentageInput = document.getElementById("custom-percentage");
+
+customPercentageInput.addEventListener("input", () =>{
+    const customValue = parseFloat(customPercentageInput.value);
+
+    if (!isNaN(customValue) && customValue > 0) {
+        calculate(customValue);
+    }
+});
 
