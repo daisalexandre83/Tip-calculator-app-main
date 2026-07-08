@@ -100,11 +100,16 @@ input{
     border-radius: 5px !important;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
+    color: #00474a;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
 }
 
-.calculator-percentage-custom p{
-
- color: #5e7a7d !important;
+.calculator-percentage-custom::placeholder{
+    color: #5e7a7d;
+    opacity: 1;
 }
 
 .result h1{
