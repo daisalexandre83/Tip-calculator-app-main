@@ -33,13 +33,17 @@
          <button class="calculator-percentage"  onclick="calculate(15)"> 15% </button>
          <button class="calculator-percentage"  onclick="calculate(25)"> 25% </button>
          <button class="calculator-percentage"  onclick="calculate(50)"> 50% </button>
-         <button class="calculator-percentage-custom">
+         <input type="number" class="calculator-percentage-custom" id="custom-percentage" placeholder="Custom" min="1" max="100">
+         <!--button class="calculator-percentage-custom">
            <p>Custom</p> 
-         </button>
+         </button-->
        </div> 
     </div>
     <div class="number-people">
-      <p> Number of People</p>
+      <div class="label-container">
+        <p> Number of People</p>
+        <span id="error-message" class="error-text">Can't be zero</span>
+      </div>
       <input id="value-number-people" type="number">
       <img src="images/icon-person.svg">
     </div>
