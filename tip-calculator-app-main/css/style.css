@@ -183,13 +183,13 @@ input{
      font-weight: bold;
 }
 
-.label-container{
+.number-people-text{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.error-text{
+.number-people-error-text{
     color: red;
     font-size: 16px;
     font-weight: bold;
