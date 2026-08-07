@@ -1,5 +1,5 @@
 const peopleInput = document.getElementById("value-number-people");
-const errorMessage = document.getElementById("error-message");
+const errorMessage = document.getElementById("number-people-error");
 const tipResult = document.getElementById("tipPerPerson");
 const totalResult = document.getElementById("totalPerson");
 
