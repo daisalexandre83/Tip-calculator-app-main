@@ -1,29 +1,28 @@
-body{
+body {
     background-color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 0;
     padding: 20px;
-    font-family: 'Space Mono',monospace;
+    font-family: 'Space Mono', monospace;
 }
 
-.header-logo{
+.header-logo {
     background-color: #c5e4e7;
-    width: 625px;
+    width: 325px;
     height: 120px;
-    max-width: 375px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header-logo img{
+.header-logo img {
     position: static;
     margin: 0;
 }
 
-.calculator{
+.calculator {
     background-color: white;
     width: 100%;
     max-width: 375px;
@@ -41,21 +40,23 @@ body{
     z-index: 1;
 }
 
-.calculator-insert-value,.number-people{
+.calculator-insert-value,
+.number-people {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.calculator-insert-value p,.number-people p {
+.calculator-insert-value p,
+.number-people p {
     margin: 0;
     color: #5e7a7d;
     font-weight: bold;
 }
 
 
-input{
+input {
     height: 48px;
     width: 100%;
     border-radius: 5px;
@@ -69,20 +70,21 @@ input{
     font-weight: bold;
 }
 
-.calculator-insert-value img, .number-people img{
+.calculator-insert-value img,
+.number-people img {
     position: absolute;
     left: 16px;
     top: 38px;
 }
 
-.grid-container{
-   display: grid;
-   grid-template-columns: repeat(2,1fr) ;
-   gap: 16px;
-   width: 100%;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 100%;
 }
 
- .grid-container button{
+.grid-container button {
     border-radius: 5px;
     border: none;
     height: 48px;
@@ -91,10 +93,10 @@ input{
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-} 
+}
 
-.calculator-percentage-custom{
-    background-color: #f3f8fb!important;
+.calculator-percentage-custom {
+    background-color: #f3f8fb !important;
     border: none;
     height: 48px;
     border-radius: 5px !important;
@@ -107,36 +109,36 @@ input{
     padding: 0;
 }
 
-.calculator-percentage-custom::placeholder{
+.calculator-percentage-custom::placeholder {
     color: #5e7a7d;
     opacity: 1;
 }
 
-.result h1{
+.result h1 {
     color: #ffffff;
-} */
+}
 
-.result-content{
+*/ .result-content {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-.result-content h1{
+.result-content h1 {
     color: #ffffff;
     font-size: 16px;
     margin: 0;
     line-height: 1;
 }
 
-.result-content h2{
+.result-content h2 {
     color: #7f9d9f;
     font-size: 13px;
     margin: 0;
     line-height: 1.5;
 }
 
-.result-content-value1 input{
+.result-content-value1 input {
     background: transparent;
     color: #26c2ae;
     font-size: 32px;
@@ -144,7 +146,7 @@ input{
     position: absolute;
     top: 525px;
     left: 100px;
-    
+
     /* padding: 0;
     margin: 0;
     height: 100%;
@@ -155,7 +157,7 @@ input{
     align-items: center; */
 }
 
-.result-content-value2 input{
+.result-content-value2 input {
     position: absolute;
     top: 590px;
 }
@@ -172,44 +174,34 @@ input{
     cursor: pointer;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
-    padding:40px 24px  24px 24px;
-    background-color: #00474a ;
+    padding: 40px 24px 24px 24px;
+    background-color: #00474a;
     box-sizing: border-box;
     gap: 24px;
     border-radius: 15px;
-     font-weight: bold;
+    font-weight: bold;
 }
 
-.number-people-text{
+.number-people-text {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.number-people-error-text{
+.number-people-error-text {
     color: red;
     font-size: 16px;
     font-weight: bold;
     display: none;
 }
 
-.input-error{
+.input-error {
     outline: 2px solid red !important;
     border: none;
 }
 
 /*Estilo para telas maiores*/
-@media only screen and (min-width:768px){
-    /* .header-logo{
-        height: 900px;
-        width: auto;
-        position: absolute;
-        align-items: center;
-    } */
-
-}
-
-
+@media only screen and (min-width:768px) {}
