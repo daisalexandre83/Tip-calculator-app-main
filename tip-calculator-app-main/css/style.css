@@ -1,30 +1,37 @@
-body {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+* {
+    box-sizing: border-box;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+}
+
+body {
+    background-color: #c5e4e7;
     font-family: 'Space Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0px;
 }
 
 .header-logo {
-    background-color: #c5e4e7;
     width: 325px;
     height: 120px;
+    margin-bottom: 30px;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .header-logo img {
-    position: static;
-    margin: 0;
+    display: block;
+    margin-top: 32px;
 }
 
 .calculator {
     background-color: white;
-    width: 100%;
     max-width: 375px;
     border-radius: 25px 25px 0 0;
     padding: 24px;
@@ -32,9 +39,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin-top: -15px;
-    position: relative;
-    z-index: 1;
+    margin-top: 0;
+    box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.04);
 }
 
 .calculator-insert-value,
@@ -141,22 +147,14 @@ input {
     font-size: 32px;
     width: 60%;
     position: absolute;
-    top: 525px;
+    top: 640px;
     left: 100px;
-
-    /* padding: 0;
-    margin: 0;
-    height: 100%;
-    border: none;
-    outline: none; */
     font-weight: bold;
-    /* display: flex;
-    align-items: center; */
 }
 
 .result-content-value2 input {
     position: absolute;
-    top: 590px;
+    top: 705px;
 }
 
 .result-reset button {
