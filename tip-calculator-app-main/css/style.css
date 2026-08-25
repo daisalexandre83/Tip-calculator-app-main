@@ -199,4 +199,21 @@ input {
 }
 
 /*Estilo para telas maiores*/
-@media only screen and (min-width:768px) {}
+@media only screen and (min-width:768px) {
+    .header-logo {
+        width: 100%;
+    }
+
+    .calculator {
+        width: 70%;
+    }
+
+    .input {
+        width: 60%;
+    }
+
+    .grid-container {
+        width: 60%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
